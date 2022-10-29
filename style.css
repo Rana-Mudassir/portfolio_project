@@ -141,7 +141,7 @@ ul {
 .card {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  min-height: 90%;
+  min-height: 98%;
   padding: 16px;
   margin: 0 24px;
   background-color: white;
@@ -162,7 +162,7 @@ ul {
 
 .project_info {
   display: flex;
-  gap: 5px;
+  gap: 23px;
   align-items: center;
   margin-top: 10px;
 }
@@ -210,7 +210,8 @@ ul {
   display: flex;
   gap: 10px;
   align-items: center;
-  margin-top: 12px;
+  margin-top: 25px;
+  margin-bottom: 30px;
   list-style: none;
   padding: 0;
 }
