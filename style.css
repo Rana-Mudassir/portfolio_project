@@ -17,6 +17,7 @@ h1 {
   line-height: 52px;
   color: #172b4d;
   margin: 46px;
+  margin-left: 20px;
 }
 
 p {
@@ -52,7 +53,7 @@ img {
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  background-image: url('images/mobile_bg.png');
+  background-image: url('images/main_bg.png');
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,10 +72,21 @@ img {
   margin: 12px 24px 0 24px;
 }
 
+.media_link {
+  color: #7f8cff;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .social_icons {
   display: flex;
   align-items: center;
   gap: 20px;
+  margin-left: -15px;
 }
 
 ul {
