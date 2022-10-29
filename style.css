@@ -16,7 +16,7 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin: 0;
+  margin: 46px;
 }
 
 p {
@@ -75,5 +75,8 @@ img {
   display: flex;
   align-items: center;
   gap: 20px;
-  margin: 12px 24px 0 24px;
+}
+
+ul {
+  list-style-type: none;
 }
