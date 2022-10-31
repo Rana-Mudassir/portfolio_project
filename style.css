@@ -207,7 +207,9 @@ ul {
 }
 
 .languages {
-  display: flex;
+  /* display: flex; */
+  float: left;
+  display: inherit;
   gap: 10px;
   align-items: center;
   margin-top: 25px;
