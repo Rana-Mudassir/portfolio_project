@@ -319,3 +319,16 @@ ul {
 .skill-list {
   padding: 0;
 }
+
+#contact-text {
+  text-align: center;
+}
+
+#contect-text-p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
