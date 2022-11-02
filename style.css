@@ -321,19 +321,6 @@ ul {
 }
 
 #contact-text {
-  text-align: center;
-}
-
-#contect-text-p {
-  font-family: Poppins, Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-
-#contact-text {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -346,7 +333,7 @@ ul {
 }
 
 #contect-text-p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -389,6 +376,6 @@ ul {
 
 #img-2 {
   width: 134px;
-  padding: 0px 100px 8px 100px;
+  padding: 0 100px 8px 100px;
   border-radius: 10px;
 }
