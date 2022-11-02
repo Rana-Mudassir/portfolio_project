@@ -207,7 +207,6 @@ ul {
 }
 
 .languages {
-  /* display: flex; */
   float: left;
   display: inherit;
   gap: 10px;
