@@ -304,7 +304,7 @@ ul {
 }
 
 .lang {
-  background: #f7f7f9;
+  background: rgb(247, 247, 249);
   display: flex;
   padding: 12px 9px;
   align-items: center;
@@ -325,7 +325,7 @@ ul {
 }
 
 #contect-text-p {
-  font-family: Poppins;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -334,14 +334,14 @@ ul {
 }
 
 #contact-text {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   padding-top: 103px;
 }
 
@@ -352,21 +352,20 @@ ul {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #ebebff;
+  color: rgb(235, 235, 255);
   padding: 24px 12px 24px 12px;
 }
 
 #footer {
   background-image: url(./images/contact-form-bg.png);
-  background-position: center;
-  background-size: contain;
+  background-size: 65%;
   width: 375px;
   display: flex;
   flex-direction: column;
-  background-color: #6070ff;
+  background-color: rgb(96, 112, 255);
   background-repeat: no-repeat;
   border-top-left-radius: 88px;
-  background-position: 7em;
+  background-position: 8.5em 2em;
 }
 
 .form {
@@ -386,4 +385,10 @@ ul {
   padding: 12px 16px;
   border: none;
   border-radius: 8px;
+}
+
+#img-2 {
+  width: 134px;
+  padding: 0px 100px 8px 100px;
+  border-radius: 10px;
 }
