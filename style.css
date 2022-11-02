@@ -357,7 +357,7 @@ ul {
 }
 
 #footer {
-  background-image: url(images\contact-form-bg.png);
+  background-image: url(./images/contact-form-bg.png);
   background-position: center;
   background-size: contain;
   width: 375px;
