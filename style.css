@@ -373,6 +373,12 @@ ul {
   border-radius: 8px;
 }
 
+#btn:hover {
+  background: #6070ff;
+  color: #fff;
+  transition: all 0.5s ease-out;
+}
+
 #img-2 {
   width: 134px;
   padding: 0 100px 8px 100px;
