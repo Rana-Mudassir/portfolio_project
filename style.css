@@ -358,3 +358,32 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
+.input-class {
+  margin: 20px 24px;
+  padding: 15px 38px 15px 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+#btn {
+  margin: 24px 211px 45px 24px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+#btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+  transition-property: color, background-color;
+  transition-duration: 3s;
+  transform: translate(2px, 2px);
+}
+
+#img-2 {
+  width: 134px;
+  padding: 0 100px 8px 100px;
+  border-radius: 10px;
+}
+
