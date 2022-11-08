@@ -318,3 +318,43 @@ ul {
 .skill-list {
   padding: 0;
 }
+
+#contact-text {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-top: 103px;
+}
+
+#contect-text-p {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(235, 235, 255);
+  padding: 24px 12px 24px 12px;
+}
+
+#footer {
+  background-image: url(./images/contact-form-bg.png);
+  background-size: 65%;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(96, 112, 255);
+  background-repeat: no-repeat;
+  border-top-left-radius: 88px;
+  background-position: 8.5em 2em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
