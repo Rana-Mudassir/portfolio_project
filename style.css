@@ -51,13 +51,6 @@ hr {
   line-height: 55px;
 }
 
-h1 {
-  font-size: 40px;
-  width: 400px;
-  color: rgb(23, 43, 77);
-  text-align: left;
-}
-
 .main > img {
   width: 100%;
 }
@@ -487,6 +480,10 @@ ul {
   padding-top: 103px;
 }
 
+#contact-text:hover {
+  transition: 1s;
+  color: rgb(139, 0, 139);
+}
 #contect-text-p {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
