@@ -14,21 +14,6 @@ body {
   align-items: center;
 }
 
-#main-para {
-  color: rgb(52, 69, 99);
-}
-
-.logo_1 {
-  font-weight: 700;
-  color: rgb(96, 112, 255);
-}
-
-h2 {
-  font-size: 18px;
-  margin: 0;
-  font-weight: 700;
-}
-
 hr {
   background-color: rgb(223, 225, 230);
   width: 100%;
