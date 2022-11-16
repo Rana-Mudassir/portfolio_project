@@ -32,13 +32,13 @@ hr {
 }
 
 .title {
-  width: 100%;
+  width: 50%;
   line-height: 55px;
 }
 
 h1 {
   font-size: 40px;
-  width: 400px;
+  width: 100%;
   color: rgb(23, 43, 77);
   text-align: left;
 }
@@ -63,6 +63,10 @@ a {
   background-position: 0.5em -2em;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.content {
+  padding: 20px;
 }
 
 .content1 {
@@ -315,10 +319,10 @@ ul {
 }
 
 #btn:hover {
-  background-color: #6070ff;
+  background-color: rgb(4, 87, 90);
   color: #fff;
   transition-property: color, background-color;
-  transition-duration: 3s;
+  transition-duration: 1s;
   transform: translate(2px, 2px);
 }
 
