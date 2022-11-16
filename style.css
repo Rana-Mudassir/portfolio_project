@@ -319,7 +319,7 @@ ul {
 }
 
 #btn:hover {
-  background-color: #6070ff;
+  background-color: rgb(4, 87, 90);
   color: #fff;
   transition-property: color, background-color;
   transition-duration: 3s;
