@@ -20,18 +20,25 @@
       <a href="#" class="logo_1">
         <h2>My Logo</h2>
       </a>
-      <button type="button" class="main_btn">
-        <nav class="main">
-          <img src="images/scroll.png" alt="menu-bar" />
-        </nav>
-        <nav class="main2">
-          <ul >
-            <li><a class='li-nav' href="#">Portfolio</a></li>
-            <li><a class='li-nav' href="#">About</a></li>
-            <li><a class='li-nav' href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </button>
+      <div>
+        <button type="button" class="main_btn" onclick="on()">
+          <nav class="main">
+            <img src="images/scroll.png" alt="menu-bar" />
+          </nav>
+        </button>          
+          
+          <nav id="overlay" class="main2">
+            <div id="cross-icon">
+              <img onclick="off()" class="style-li" src="/images/close-Icon.png" alt="close-Icon">
+            </div>
+            <ul id="style">
+              <li onclick="off()" class="style-li"><a class="style-li" class='li-nav' href="#Portfolio">Portfolio</a></li>
+              <li onclick="off()" class="style-li"><a class="style-li" class='li-nav' href="#about">About</a></li>
+              <li onclick="off()" class="style-li"><a class="style-li" class='li-nav' href="#footer">Contact</a></li>
+            </ul>
+            
+          </nav>
+      </div>
     </div>
   </header>
 
@@ -64,7 +71,7 @@
     </div>
   </main>
   
-  <section class="works-section">
+  <section id="Portfolio" class="works-section">
     <div class="section-card">
       <div class="card-img">
         <img src="./images/img-1.png" alt="card-image">
@@ -207,7 +214,7 @@
   </section>
 
 
-  <section class="about-me">
+  <section id="about" class="about-me">
     <div class="content">
       <h1 class="title">About Myslef</h1>
       <p>
@@ -313,5 +320,9 @@
       </form>
       <img id="img-2" src="images/Shape.png" alt="rectangle-line" />
     </section>
+
+    <script>
+      
+      </script>
   </body>
 </html>

@@ -31,6 +31,24 @@ hr {
   height: 24px;
 }
 
+#style {
+  display: block;
+  text-align: left;
+  margin: 20px 28px;
+}
+
+#cross-icon {
+  padding: 78px 0px 0px 325px;
+}
+
+.style-li {
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+
 .title {
   width: 50%;
   line-height: 55px;
