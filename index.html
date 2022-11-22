@@ -322,7 +322,17 @@
     </section>
 
     <script>
-      
+      let btn = document.querySelector('.main_btn');
+
+btn.addEventListener('click', on);
+
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
       </script>
   </body>
 </html>
