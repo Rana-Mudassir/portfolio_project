@@ -50,7 +50,8 @@ hr {
 }
 
 #cross-icon {
-  padding: 78px 0px 0px 325px;
+  padding-top: 78px;
+  padding-right: 325px;
 }
 
 .style-li {
