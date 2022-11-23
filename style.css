@@ -31,28 +31,16 @@ hr {
   height: 24px;
 }
 
-#overlay {
+#layer {
   position: fixed;
-  display: none;
-  width: 100%;
   height: 100%;
   top: 0;
   left: 0;
+  background-color: hsl(234, 100%, 69%, 0.903);
   right: 0;
   bottom: 0;
-  background-color: hsl(234, 100%, 69%, 0.903);
-  z-index: 2;
   cursor: pointer;
-}
-
-#text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 50px;
-  color: white;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 #style {
@@ -379,6 +367,10 @@ ul {
     display: none;
   }
 
+  #style1 {
+    display: none;
+  }
+
   .card-desktop-img {
     display: none;
   }
@@ -404,6 +396,14 @@ ul {
 
   .main {
     display: none;
+  }
+
+  #layer {
+    display: none;
+  }
+
+  #style1 {
+    display: flex;
   }
 
   .card-img {
@@ -498,6 +498,7 @@ ul {
 
   .li-nav {
     color: rgb(52, 69, 99);
+    font-weight: 500;
   }
 
   .input-class {

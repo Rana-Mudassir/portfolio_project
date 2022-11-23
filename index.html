@@ -27,7 +27,7 @@
           </nav>
         </button>          
           
-          <nav id="overlay" class="main2">
+          <nav id="layer" class="main2">
             <div id="cross-icon">
               <img onclick="off()" class="style-li" src="/images/close-Icon.png" alt="close-Icon">
             </div>
@@ -36,8 +36,12 @@
               <li onclick="off()" class="style-li"><a class="style-li" class='li-nav' href="#about">About</a></li>
               <li onclick="off()" class="style-li"><a class="style-li" class='li-nav' href="#footer">Contact</a></li>
             </ul>
-            
           </nav>
+          <ul id="style1">
+            <li ><a class='li-nav' href="#Portfolio">Portfolio</a></li>
+            <li ><a class='li-nav' href="#about">About</a></li>
+            <li ></li><a class='li-nav' href="#footer">Contact</a></li>
+          </ul>
       </div>
     </div>
   </header>
@@ -322,16 +326,16 @@
     </section>
 
     <script>
-      let btn = document.querySelector('.main_btn');
 
+let btn = document.querySelector('.main_btn');
 btn.addEventListener('click', on);
 
 function on() {
-  document.getElementById("overlay").style.display = "block";
+  document.getElementById("layer").style.display = "block";
 }
 
 function off() {
-  document.getElementById("overlay").style.display = "none";
+  document.getElementById("layer").style.display = "none";
 }
       </script>
   </body>
