@@ -1,32 +1,32 @@
 // Mobile- Menu
 
-const btn = document.querySelector('.main_btn')
+const btn = document.querySelector('.main_btn');
 
 function on() {
-	document.getElementById('layer').style.display = 'block'
-	document.body.style.overflowY = 'hidden'
+	document.getElementById('layer').style.display = 'block';
+	document.body.style.overflowY = 'hidden';
 }
-btn.addEventListener('click', on)
+btn.addEventListener('click', on);
 
-const btn2 = document.querySelector('style-li')
+const btn2 = document.querySelector('style-li');
 
 function off() {
-	document.getElementById('layer').style.display = 'none'
-	document.body.style.overflowY = 'scroll'
+	document.getElementById('layer').style.display = 'none';
+	document.body.style.overflowY = 'scroll';
 }
 
 // btn2.addEventListener('click', off);
 
 // Popop Modal
 
-const body = document.getElementById('body')
-const cardSection = document.getElementById('Portfolio')
-const myModal = document.getElementById('myModal')
-const cardTitle = document.getElementById('modal-title')
-const cardImage = document.getElementById('modelImg')
-const descModal = document.getElementById('modalDes')
-const demo = document.getElementById('demoLink')
-const githubSrc = document.getElementById('githubSrc')
+const body = document.getElementById('body');
+const cardSection = document.getElementById('Portfolio');
+const myModal = document.getElementById('myModal');
+const cardTitle = document.getElementById('modal-title');
+const cardImage = document.getElementById('modelImg');
+const descModal = document.getElementById('modalDes');
+const demo = document.getElementById('demoLink');
+const githubSrc = document.getElementById('githubSrc');
 
 const cardsObj = [
 	{
@@ -77,7 +77,7 @@ const cardsObj = [
 		langs: ['html', 'javascript', 'css'],
 		experience: ['Canopy', 'Back End Dev', 2015],
 	},
-]
+];
 
 cardsObj.map((card, value) => {
 	return (cardSection.innerHTML += `<div class="card  rev-${value}">
@@ -91,7 +91,7 @@ cardsObj.map((card, value) => {
 			.map(
 				(role, idx) => `<div id="li-elm">${role}
             </div>
-            <img class="li-dot-${idx}" src="images/li.png" alt="dot"/>`,
+            <img class="li-dot-${idx}" src="images/li.png" alt="dot"/>`
 			)
 			.join('')}
           </div>
@@ -110,29 +110,29 @@ cardsObj.map((card, value) => {
           </div>
         </div>
       </div>
-      `)
-})
+      `);
+});
 
 // console.log('card title ', cardsObj);
 
 const openModal = (value) => {
-	console.log('card title ', cardsObj[0].titleCard)
+	console.log('card title ', cardsObj[0].titleCard);
 
-	cardTitle.innerHTML = cardsObj[value].titleCard
+	cardTitle.innerHTML = cardsObj[value].titleCard;
 	// console.log('card title ', innerHTML);
 
-	cardImage.src = cardsObj[value].cardImage
-	descModal.innerHTML = cardsObj[value].descModal
-	demo.href = cardsObj[value].demo
-	githubSrc.href = cardsObj[value].githubSrc
-	myModal.style.display = 'block'
-	body.style.overflowY = 'hidden'
-}
+	cardImage.src = cardsObj[value].cardImage;
+	descModal.innerHTML = cardsObj[value].descModal;
+	demo.href = cardsObj[value].demo;
+	githubSrc.href = cardsObj[value].githubSrc;
+	myModal.style.display = 'block';
+	body.style.overflowY = 'hidden';
+};
 
 const closeModal = () => {
-	myModal.style.display = 'none'
-	body.style.overflowY = 'auto'
-}
+	myModal.style.display = 'none';
+	body.style.overflowY = 'auto';
+};
 
-openModal()
-closeModal()
+openModal();
+closeModal();
