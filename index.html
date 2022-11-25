@@ -79,14 +79,14 @@
 
    <!-- // Popup Modal // -->
 
-   <div class="container mt-3">
-    <h3>Modal Example</h3>
+  <!-- <div class="container mt-3"> -->
+    <!-- <h3>Modal Example</h3>
     <p>Click on the button to open the modal.</p>
     
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
       Open modal
-    </button>
-  </div>
+    </button> -->
+  <!-- </div>  --> 
   
   <!-- The Modal -->
   <div class="modal" id="myModal">
@@ -95,29 +95,58 @@
   
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">Modal Heading</h4>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          <h4 id="modal-title">Tonic</h4>
+          <button onclick="closeModal()" type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
+        <div class="exp">
+          <ul>
+            <li id="li-elm">CANOPY</li>
+            <img class="li-dot" src="./images/li.png" alt="dot">
+              <li class="role">Back End Dev</li>
+            </img>
+            <img class="li-dot" src="./images/li.png" alt="dot">
+              <li>2022</li>
+            </img>
+          </ul>
+        </div>
+        <div class="card-img">
+          <img id="modelImg" src="./images/img-1.png" alt="card-image">
+        </div>
+        <div class="card-text">
+          <p id="modalDes">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        </div>
+        <div class="card-links">
+          <ul>
+            <li class="link-style">html</li>
+            <li class="link-style">css</li>
+            <li class="link-style">javascript</li>
+          </ul>
+        </div>
+        <button id="demoLink" class="card-button">See Project</button>
+        <button id="githubSrc" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+          Open modal
+        </button>
+
+
   
         <!-- Modal body -->
-        <div class="modal-body">
+        <!-- <div class="modal-body">
           Modal body..
-        </div>
+        </div> -->
   
         <!-- Modal footer -->
-        <div class="modal-footer">
+        <!-- <div class="modal-footer">
           <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-        </div>
+        </div> -->
   
       </div>
     </div>
   </div>
 
-
    <!-- // Works section // -->
   
   <section id="Portfolio" class="works-section">
-    <div class="section-card">
+    <!-- <!-- <div class="section-card"> 
       <div class="card-img">
         <img src="./images/img-1.png" alt="card-image">
       </div>
@@ -147,8 +176,9 @@
             <li class="link-style">javascript</li>
           </ul>
         </div>
-        <button class="card-button">See Project</button>
+        <button data-bs-toggle="modal" data-bs-target="#myModal" class="card-button">See Project</button>
       </div>
+      
     </div>
 
     <div class="section-card">
@@ -255,7 +285,7 @@
       <div class="card-desktop-img">
         <img src="./images/un-4.png" alt="card-image">
       </div>
-    </div>
+    </div> -->
   </section>
 
 
