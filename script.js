@@ -83,7 +83,7 @@ cardsObj.map(
   (card, value) =>
     (cardSection.innerHTML += `<div class="card  rev-${value}">
         <div class="card-img">
-          <img src="${card.cardImage}" alt="Card Image" />
+          <img src="${card.cardImage}" alt="Card Image"/>
         </div>
         <div class="card-text">
             <h3 id="cardTitle">${card.titleCard}</h3>
@@ -91,10 +91,10 @@ cardsObj.map(
             ${card.experience
               .map(
                 (role, idx) => `<div id="li-elm">${role}
-            </div><img class="li-dot-${idx}" src="images/li.png" alt="dot" />`
+            </div>
+            <img class="li-dot-${idx}" src="images/li.png" alt="dot"/>`
               )
               .join('')}
-
           </div>
           <div class="card-text">
             <p>
