@@ -79,9 +79,8 @@ const cardsObj = [
   },
 ];
 
-cardsObj.map(
-  (card, value) =>
-    (cardSection.innerHTML += `<div class="card  rev-${value}">
+cardsObj.map((card, value) => {
+  return (cardSection.innerHTML += `<div class="card  rev-${value}">
         <div class="card-img">
           <img src="${card.cardImage}" alt="Card Image"/>
         </div>
@@ -111,13 +110,13 @@ cardsObj.map(
           </div>
         </div>
       </div>
-      `)
-);
+      `);
+});
 
 // console.log('card title ', cardsObj);
 
 const openModal = (value) => {
-  // console.log('card title ', cardsObj[0].titleCard);
+  console.log('card title ', cardsObj[0].titleCard);
 
   cardTitle.innerHTML = cardsObj[value].titleCard;
   // console.log('card title ', innerHTML);
