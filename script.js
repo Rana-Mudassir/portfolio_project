@@ -41,6 +41,35 @@ const cardImage2 = document.getElementById('modelImg2');
 const descModal = document.getElementById('modalDes');
 const demo = document.getElementById('demoLink');
 const githubSrc = document.getElementById('githubSrc');
+const userName = document.getElementById('userName');
+const msg = document.getElementById('textareaMessage');
+
+// Form Data Local Storage
+
+function getFormInfo() {
+  const formData = {
+    name: userName.value,
+    message: msg.value,
+    email: email.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+function storeData() {
+  if (!localStorage.getItem('formData')) {
+    getFormInfo();
+  } else {
+    const fetchData = JSON.parse(localStorage.getItem('formData'));
+    userName.setAttribute('value', fetchData.userName);
+    email.setAttribute('value', fetchData.email);
+    msg.textContent = fetchData.msg;
+  }
+}
+window.onload = () => {
+  storeData();
+};
+userName.addEventListener('change', getFormInfo);
+msg.addEventListener('change', getFormInfo);
 
 const cardsObj = [
   {
