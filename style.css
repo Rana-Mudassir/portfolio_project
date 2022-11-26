@@ -116,7 +116,12 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 23px;
-  margin-left: -38px;
+  margin-left: -31px;
+  margin-top: 8px;
+}
+
+.modal-footer {
+  display: block;
 }
 
 /* Works section */
@@ -153,6 +158,10 @@ ul {
   width: 100%;
 }
 
+.exp{
+  display: flex;
+}
+
 .exp > ul {
   gap: 10px;
 }
@@ -168,10 +177,30 @@ ul {
   border-radius: 8px;
 }
 
+.l-s {
+  margin-top: 15px;
+}
+
 .li-dot {
   width: 15px;
   height: 15px;
-  margin-top: 4px;
+  margin: 4px;
+}
+
+.li-dot-0 {
+  width: 15px;
+  height: 15px;
+  margin: 4px 14px 4px -6px;
+}
+
+.li-dot-1 {
+  width: 15px;
+    height: 15px;
+    margin: 4px 15px 4px -10px;
+}
+
+.li-dot-2 {
+  display: none;
 }
 
 .card-button {
@@ -183,6 +212,12 @@ ul {
   border-radius: 16px;
   padding: 12px 16px;
   letter-spacing: 0.03em;
+}
+
+.c-b-a {
+  width: 53%;
+  padding: 6px 19px;
+  height: 20%;
 }
 
 /* About Section */
