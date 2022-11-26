@@ -71,23 +71,6 @@ window.onload = () => {
 userName.addEventListener('change', getFormInfo);
 msg.addEventListener('change', getFormInfo);
 
-
-function storeData() {
-  if (!localStorage.getItem('formData')) {
-    getFormInfo();
-  } else {
-    const fetchData = JSON.parse(localStorage.getItem('formData'));
-    userName.setAttribute('value', fetchData.userName);
-    email.setAttribute('value', fetchData.email);
-    msg.textContent = fetchData.msg;
-  }
-}
-window.onload = () => {
-  storeData();
-};
-userName.addEventListener('change', getFormInfo);
-msg.addEventListener('change', getFormInfo);
-
 const cardsObj = [
   {
     titleCard: 'Tonic',
