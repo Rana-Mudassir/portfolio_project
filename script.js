@@ -80,7 +80,7 @@ const cardsObj = [
 ];
 
 cardsObj.map(
-  (card, value) => cardSection.innerHTML += `<div class="card  rev-${value}">
+  (card, value) => {cardSection.innerHTML += `<div class="card  rev-${value}">
         <div class="card-img">
           <img src="${card.cardImage}" alt="Card Image"/>
         </div>
@@ -110,7 +110,7 @@ cardsObj.map(
           </div>
         </div>
       </div>
-      `,
+      `},
 );
 
 // console.log('card title ', cardsObj);
