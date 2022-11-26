@@ -19,7 +19,7 @@ btn.addEventListener('click', on);
 
 // Form validation
 const userEmail = document.querySelector('#email');
-const alertMsg = document.querySelector('.alert-Msg');
+const alertMsg = document.querySelector('#alert-Msg');
 const contactForm = document.querySelector('.contactForm');
 contactForm.addEventListener('submit', (event) => {
   const regex = /[A-Z]/;
@@ -31,6 +31,9 @@ contactForm.addEventListener('submit', (event) => {
 });
 
 // Popop Modal
+
+
+
 
 const body = document.getElementById('body');
 const cardSection = document.getElementById('Portfolio');
@@ -94,7 +97,7 @@ const cardsObj = [
     githubSrc: 'https://github.com/Rana-Mudassir/portfolio_project',
     langs: ['html', 'javascript', 'css'],
     experience: ['Canopy', 'Back End Dev', 2015],
-  },
+  }
 ];
 
 /*  eslint-disable no-return-assign */
@@ -160,3 +163,7 @@ const closeModal = () => {
 
 openModal();
 closeModal();
+
+// line 22 #alert-Msg  to .alert-Msg
+// Line 34,35,36 remove extra spaces
+// Line 100   Add trailing Coma(,) after bracket } 
