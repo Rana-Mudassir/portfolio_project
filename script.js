@@ -27,8 +27,7 @@ contactForm.addEventListener('submit', (event) => {
   if (regex.test(emailContent)) {
     alertMsg.innerHTML = 'Your email address should be lower case';
     event.preventDefault();
-  }
-
+  }
 });
 
 // Popop Modal
