@@ -132,6 +132,7 @@ cardsObj.map(
 const openModal = (value) => {
   cardTitle.innerHTML = cardsObj[value].titleCard;
   cardImage.src = cardsObj[value].cardImage;
+  cardImage2.src = cardsObj[value].cardImage2;
   descModal.innerHTML = cardsObj[value].descModal;
   demo.href = cardsObj[value].demo;
   githubSrc.href = cardsObj[value].githubSrc;
