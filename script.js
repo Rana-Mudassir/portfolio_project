@@ -43,6 +43,8 @@ const demo = document.getElementById('demoLink');
 const githubSrc = document.getElementById('githubSrc');
 const userName = document.getElementById('userName');
 const msg = document.getElementById('textareaMessage');
+const email = document.getElementById('email');
+
 
 // Form Data Local Storage
 
