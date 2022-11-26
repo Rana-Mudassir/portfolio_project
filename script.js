@@ -114,15 +114,8 @@ cardsObj.map(
       </div>
       `);
 
-
-// console.log('card title ', cardsObj);
-
 const openModal = (value) => {
-  console.log('card title ', cardsObj[0].titleCard);
-
   cardTitle.innerHTML = cardsObj[value].titleCard;
-  // console.log('card title ', innerHTML);
-
   cardImage.src = cardsObj[value].cardImage;
   descModal.innerHTML = cardsObj[value].descModal;
   demo.href = cardsObj[value].demo;
