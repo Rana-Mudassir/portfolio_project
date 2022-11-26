@@ -82,7 +82,8 @@ const cardsObj = [
 /*  eslint-disable no-return-assign */
 // eslint-disable-next-line no-return-assign
 cardsObj.map(
-  (card, value) => cardSection.innerHTML += `<div class="card  rev-${value}">
+  (card, value) =>
+    cardSection.innerHTML += `<div class="card  rev-${value}">
         <div class="card-img">
           <img src="${card.cardImage}" alt="Card Image"/>
         </div>
@@ -90,12 +91,12 @@ cardsObj.map(
             <h3 id="cardTitle">${card.titleCard}</h3>
           <div class="exp">
             ${card.experience
-      .map(
-        (role, idx) => `<div id="li-elm">${role}
+              .map(
+                (role, idx) => `<div id="li-elm">${role}
             </div>
             <img class="li-dot-${idx}" src="images/li.png" alt="dot"/>`,
-      )
-      .join('')}
+              )
+              .join('')}
           </div>
           <div class="card-text">
             <p>
@@ -104,15 +105,17 @@ cardsObj.map(
           </div>
           <ul class="card-links">
           ${card.langs
-      .map((lng) => `<li class="link-style">${lng}</li>`)
-      .join('')}
+            .map((lng) => `<li class="link-style">${lng}</li>`)
+            .join('')}
           </ul>
           <div class="card-button">
             <a href="javascript:openModal(${value})" class="btn">See Project</a>
           </div>
         </div>
       </div>
-      `);
+
+  `,
+);
 
 const openModal = (value) => {
   cardTitle.innerHTML = cardsObj[value].titleCard;
