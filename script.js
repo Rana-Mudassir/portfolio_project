@@ -6,21 +6,21 @@ function on() {
 }
 btn.addEventListener('click', on);
 
-const btn2 = document.querySelector('style-li');
+// const btn2 = document.querySelector('style-li');
 
-function off() {
-  document.getElementById('layer').style.display = 'none';
-  document.body.style.overflowY = 'scroll';
-}
+// function off() {
+//   document.getElementById('layer').style.display = 'none';
+//   document.body.style.overflowY = 'scroll';
+// }
 
-btn2.addEventListener('click', off);
+// btn2.addEventListener('click', off);
 
 // Form validation
-
 const userEmail= document.querySelector('#email');
 const alertMsg = document.querySelector('.alert-Msg');
 const contactForm = document.querySelector('.contactForm');
 contactForm.addEventListener('submit', (event) => {
+  console.log('userEmail', userEmail)
   const regex = /[A-Z]/;
   const emailContent = userEmail.value;
   if (regex.test(emailContent)) {
@@ -28,3 +28,5 @@ contactForm.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+
