@@ -86,6 +86,49 @@ const cardsObj = [
 
 /*  eslint-disable no-return-assign */
 // eslint-disable-next-line no-return-assign
+
+cardsObj.map(
+  (card, value) => cardSection.innerHTML += `<div class="section-card  flip-${value}">
+        <div class="card-img">
+          <img src="${card.cardImage}" alt="Card Image"/>
+        </div>
+        <div class="card-desktop-img">
+        <img src="${card.cardImage2}"  alt="card-Desktop-image">
+      </div>
+        <div class="card-text">
+            <h3 id="cardTitle">${card.titleCard}</h3>
+            <div class="exp">
+            ${card.experience
+              .map(
+                (role, idx) => `
+                <ul>
+                <li id="li-elm">${role}
+                </li>
+                <img class="li-dot-${idx}" src="images/li.png" alt="dot"/>
+                </ul>
+                `,
+              )
+              .join('')}
+              </div>
+          <div class="card-text">
+            <p>
+             ${card.descCard}
+            </p>
+          </div>
+          <ul class="card-links">
+          ${card.langs
+            .map((lng) => `<li class="link-style l-s">${lng}</li>`)
+            .join('')}
+          </ul>
+          <div class="card-button c-b-a ">
+            <a href="javascript:openModal(${value})" class="btn">See Project</a>
+          </div>
+        </div>
+      </div>
+
+  `,
+);
+
 const openModal = (value) => {
   cardTitle.innerHTML = cardsObj[value].titleCard;
   cardImage.src = cardsObj[value].cardImage;
