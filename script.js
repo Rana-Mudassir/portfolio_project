@@ -80,8 +80,7 @@ const cardsObj = [
 ];
 
 cardsObj.map(
-  (card, value) =>
-  cardSection.innerHTML += `<div class="card  rev-${value}">
+  (card, value) => cardSection.innerHTML += `<div class="card  rev-${value}">
         <div class="card-img">
           <img src="${card.cardImage}" alt="Card Image"/>
         </div>
@@ -92,7 +91,7 @@ cardsObj.map(
       .map(
         (role, idx) => `<div id="li-elm">${role}
             </div>
-            <img class="li-dot-${idx}" src="images/li.png" alt="dot"/>`
+            <img class="li-dot-${idx}" src="images/li.png" alt="dot"/>`,
       )
       .join('')}
           </div>
@@ -111,7 +110,7 @@ cardsObj.map(
           </div>
         </div>
       </div>
-      `
+      `,
 );
 
 // console.log('card title ', cardsObj);
