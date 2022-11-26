@@ -86,4 +86,20 @@ const cardsObj = [
 
 /*  eslint-disable no-return-assign */
 // eslint-disable-next-line no-return-assign
+const openModal = (value) => {
+  cardTitle.innerHTML = cardsObj[value].titleCard;
+  cardImage.src = cardsObj[value].cardImage;
+  descModal.innerHTML = cardsObj[value].descModal;
+  demo.href = cardsObj[value].demo;
+  githubSrc.href = cardsObj[value].githubSrc;
+  myModal.style.display = 'block';
+  body.style.overflowY = 'hidden';
+};
 
+const closeModal = () => {
+  myModal.style.display = 'none';
+  body.style.overflowY = 'auto';
+};
+
+openModal();
+closeModal();
