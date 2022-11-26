@@ -49,8 +49,8 @@ const email = document.getElementById('email');
 
 function getFormInfo() {
   const formData = {
-    name: userName.value,
-    message: msg.value,
+    userName: userName.value,
+    msg: msg.value,
     email: email.value,
   };
   localStorage.setItem('formData', JSON.stringify(formData));
@@ -71,6 +71,7 @@ window.onload = () => {
 };
 userName.addEventListener('change', getFormInfo);
 msg.addEventListener('change', getFormInfo);
+email.addEventListener('change', getFormInfo);
 
 const cardsObj = [
   {
