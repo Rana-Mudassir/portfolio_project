@@ -82,8 +82,7 @@ const cardsObj = [
 /*  eslint-disable no-return-assign */
 // eslint-disable-next-line no-return-assign
 cardsObj.map(
-  (card, value) =>
-    cardSection.innerHTML += `<div class="card  rev-${value}">
+  (card, value) => cardSection.innerHTML += `<div class="card  rev-${value}">
         <div class="card-img">
           <img src="${card.cardImage}" alt="Card Image"/>
         </div>
