@@ -15,7 +15,7 @@ function off() {
   document.body.style.overflowY = 'scroll';
 }
 
-btn2.addEventListener('click', off);
+// btn2.addEventListener('click', off);
 
 // Popop Modal
 
@@ -79,8 +79,9 @@ const cardsObj = [
   },
 ];
 
-cardsObj.map((card, value) => {
-  return (cardSection.innerHTML += `<div class="card  rev-${value}">
+cardsObj.map(
+  (card, value) =>
+    (cardSection.innerHTML += `<div class="card  rev-${value}">
         <div class="card-img">
           <img src="${card.cardImage}" alt="Card Image"/>
         </div>
@@ -110,8 +111,8 @@ cardsObj.map((card, value) => {
           </div>
         </div>
       </div>
-      `);
-});
+      `)
+);
 
 // console.log('card title ', cardsObj);
 
