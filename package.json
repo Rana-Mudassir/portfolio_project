@@ -1,0 +1,20 @@
+{
+  "name": "portfolio_project",
+  "version": "1.0.0",
+  "description": "Mudassir's Portfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"script": "npm scipt.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rana-Mudassir/portfolio_project.git"
+  },
+  "author": "Mudassir Nazir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rana-Mudassir/portfolio_project/issues"
+  },
+  "homepage": "https://github.com/Rana-Mudassir/portfolio_project#readme"
+}
