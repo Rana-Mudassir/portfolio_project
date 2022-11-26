@@ -8,12 +8,12 @@ function on() {
 }
 btn.addEventListener('click', on);
 
-const btn2 = document.querySelector('style-li');
+// const btn2 = document.querySelector('style-li');
 
-function off() {
-  document.getElementById('layer').style.display = 'none';
-  document.body.style.overflowY = 'scroll';
-}
+// function off() {
+//   document.getElementById('layer').style.display = 'none';
+//   document.body.style.overflowY = 'scroll';
+// }
 
 // btn2.addEventListener('click', off);
 
@@ -80,7 +80,7 @@ const cardsObj = [
 ];
 
 cardsObj.map(
-  (card, value) => {cardSection.innerHTML += `<div class="card  rev-${value}">
+  (card, value) => (cardSection.innerHTML += `<div class="card  rev-${value}">
         <div class="card-img">
           <img src="${card.cardImage}" alt="Card Image"/>
         </div>
@@ -110,7 +110,7 @@ cardsObj.map(
           </div>
         </div>
       </div>
-      `},
+      `),
 );
 
 // console.log('card title ', cardsObj);
