@@ -1,13 +1,6 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
+# Portfolio-Website
 
 <!-- TABLE OF CONTENTS -->
 
@@ -35,19 +28,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Portfolio-Website] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Portfolio-Website]** is a Responsive template to build your portfolio, and add your projects and that's it, you can make it live. Create with HTML, CSS, and Javascript.  
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -88,7 +75,7 @@ Describe the tech stack and include only the relevant sections that apply to you
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://rana-mudassir.github.io/portfolio_project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
